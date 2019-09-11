@@ -19,6 +19,7 @@
                                         <th>Location</th>
                                         <th>Cost</th>
                                         <th>Place</th>
+                                        <th>menu</th>
 
                                     </tr>
                                     </thead>
@@ -30,6 +31,7 @@
                                         <td><?php echo $place['location'] ?></td>
                                         <td><?php echo $place['cost'] ?></td>
                                         <td><?php echo $place['place'] ?></td>
+                                        <td><a href="<?php echo base_url('Menu/index/').$place['id'] ?>" class="btn btn-deepOrange">Menu</a></td>
                                     </tr>
                                     <?php }?>
                                     <tbody>
