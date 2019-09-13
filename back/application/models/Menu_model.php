@@ -21,4 +21,14 @@
         $this->db->insert('menu',$data);
     }
 
+    public function get_single_menu($id)
+    {
+        return $this->db->where('place_id',$id)->get('menu')->row_array();
+    }
+
+    public function get_sub_menu_single($table,$id)
+    {
+        return $this->db->where('id',$id)->get($table)->row_array();
+    }
+
 }

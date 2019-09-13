@@ -16,10 +16,14 @@ class Menu extends CI_Controller {
     public function index($id)
     {
         $data['menu'] = $this->Menu_model->get_menu();
+        $data['single_menu'] = $this->Menu_model->get_single_menu($id);
+        $data['cafe'] = $this->Cafe_model->getCafe($id);
         for ($i = 2; $i <= (count($data['menu']) - 1); $i++){
             $tables = $data['menu'];
             $data[$tables[$i]] = $this->Menu_model->get_sub_menu($tables[$i]);
             $columns = $data[$tables[$i]];
+            $data["$tables[$i]_single"] = $this->Menu_model->get_sub_menu_single($tables[$i],$data['single_menu'][$tables[$i]]);
+
         }
         $this->page = 'list';
         $this->load->view("$this->loct/index",$data);

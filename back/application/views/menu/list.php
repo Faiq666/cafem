@@ -1,11 +1,22 @@
 <div class="col-md-12">
+    <h1 class="m-b-lg"><?php echo $cafe['name'] ?></h1>
+    <?php for ($i = 2; $i <= (count($menu) - 1); $i++){ ?>
+        <?php if ($single_menu[$menu[$i]] != 0) { ?>
     <div class="widget p-lg">
-        <h4 class="m-b-lg"><?php echo ?></h4>
+
+        <h4 class="m-b-lg"><?php echo $menu[$i] ?></h4>
+
+
         <table class="table">
-            <tr><th>#</th><th>First Name</th><th>Last Name</th><th>Username</th></tr>
-            <tr><td>1</td><td>Mark</td><td>Otto</td><td>@mdo</td></tr>
-            <tr><td>2</td><td>Jacob</td><td>Thornton</td><td>@fat</td></tr>
-            <tr><td>3</td><td>Larry</td><td>the Bird</td><td>@twitter</td></tr>
+            <?php for ($x = 1; $x <= (count(${$menu[$i]}) - 1); $x++){ ?>
+            <tr><th><?php echo ${$menu[$i]}[$x] ?></th><th><?php echo ${"$menu[$i]_single"}[${$menu[$i]}[$x]] ?></th><th>Username</th></tr>
+            <?php } ?>
         </table>
+
+            <br>
+            <br>
+
     </div><!-- .widget -->
+        <?php } ?>
+    <?php } ?>
 </div><!-- END column -->
