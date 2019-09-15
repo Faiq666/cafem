@@ -31,4 +31,9 @@
         return $this->db->where('id',$id)->get($table)->row_array();
     }
 
+    public function get_all_menu()
+    {
+        return $this->db->get('menu')->result_array();
+    }
+
 }
