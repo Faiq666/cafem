@@ -8,12 +8,14 @@ class Cafe extends CI_Controller {
         $this->view = 'Cafe';
         $this->loct = 'includes';
         $this->load->model('Cafe_model');
+        $this->load->model('Menu_model');
 
 
     }
 
     public function index()
     {
+        $data['allmenu'] = $this->Menu_model->get_all_menu();
         $data['places'] =$this->Cafe_model->getInfo();
         $this->page = 'list';
         $this->load->view("$this->loct/index",$data);

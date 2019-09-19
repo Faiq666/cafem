@@ -19,6 +19,7 @@
                                         <th>Location</th>
                                         <th>Cost</th>
                                         <th>Place</th>
+                                        <th>menu</th>
 
                                     </tr>
                                     </thead>
@@ -30,6 +31,18 @@
                                         <td><?php echo $place['location'] ?></td>
                                         <td><?php echo $place['cost'] ?></td>
                                         <td><?php echo $place['place'] ?></td>
+                                        <?php foreach ($allmenu as $single_menu){
+                                            if ($single_menu['place_id'] == $place['id']){
+                                                $menucheck = 0;
+                                                break;
+                                            }else{ $menucheck = 1; }
+                                        } ?>
+                                        <?php if ($menucheck == 0) { ?>
+                                        <td><a href="<?php echo base_url('Menu/index/').$place['id'] ?>" class="btn btn-deepOrange">Menu</a></td>
+                                        <?php }else{ ?>
+
+                                        <td><a  href="<?php echo base_url('Menu/menu_add/').$place['id']."/".$place['name'] ?>" class="btn btn-deepOrange">Menu add</a></td>
+                                        <?php } ?>
                                     </tr>
                                     <?php }?>
                                     <tbody>

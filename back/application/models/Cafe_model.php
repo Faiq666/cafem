@@ -10,4 +10,10 @@ class Cafe_model extends CI_Model{
         return $this->db->order_by('id','DESC')->get('place')->result_array() ;
     }
 
+    public function getCafe($id)
+    {
+        return $this->db->where('id',$id)->get('place')->row_array() ;
+    }
+
+
 }
