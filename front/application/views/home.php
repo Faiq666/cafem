@@ -15,70 +15,43 @@
 					<h4>İstədiyinizi bizimlə tapın!</h4>
 
 					<div class="main-search-input">
+                        <div class="main-search-input-item">
+                            <select data-placeholder="All Categories" class="chosen-select" >
+                                <option>Ailəvi</option>
+                                <option>Ümumi</option>
+
+
+                            </select>
+                        </div>
+
 
 						<div class="main-search-input-item">
-							<input type="text" placeholder="What are you looking for?" value=""/>
-						</div>
+                            <select data-placeholder="All Categories" class="chosen-select" >
+                                <option>Bütün kateqoriyalar</option>
+                                <option>Hezi Aslanov</option>
+                                <option>Ehmedli</option>
+                                <option>Xalqlar dostlugu</option>
+                                <option>Neftciler</option>
 
-						<div class="main-search-input-item location">
-							<div id="autocomplete-container">
-								<input id="autocomplete-input" type="text" placeholder="Location">
-							</div>
-							<a href="#"><i class="fa fa-map-marker"></i></a>
+                            </select>
 						</div>
 
 						<div class="main-search-input-item">
 							<select data-placeholder="All Categories" class="chosen-select" >
-								<option>All Categories</option>
-								<option>Shops</option>
-								<option>Hotels</option>
-								<option>Restaurants</option>
-								<option>Fitness</option>
-								<option>Events</option>
+								<option>Bütün kateqoriyalar</option>
+								<option>Restoran</option>
+								<option>Lounge</option>
+								<option>Çayxana</option>
+								<option>Playstation</option>
+
 							</select>
 						</div>
 
-						<button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">Search</button>
+						<button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">Axtar</button>
 
 					</div>
 				</div>
 			</div>
-
-			<!-- Features Categories -->
-			<div class="row">
-				<div class="col-md-12">
-					<h5 class="highlighted-categories-headline">Or browse featured categories:</h5>
-
-					<div class="highlighted-categories">
-						<!-- Box -->
-						<a href="listings-list-with-sidebar.html" class="highlighted-category">
-					    	<i class="im im-icon-Home"></i>
-					    	<h4>Apartments</h4>
-						</a>
-
-						<!-- Box -->
-						<a href="listings-list-full-width.html" class="highlighted-category">
-					    	<i class="im im-icon-Hamburger"></i>
-					    	<h4>Eat &amp; Drink</h4>
-						</a>
-
-						<!-- Box -->
-						<a href="listings-half-screen-map-list.html" class="highlighted-category">
-					    	<i class="im im-icon-Electric-Guitar"></i>
-					    	<h4>Events</h4>
-						</a>
-
-						<!-- Box -->
-						<a href="listings-half-screen-map-list.html" class="highlighted-category">
-					    	<i class="im im-icon-Dumbbell"></i>
-					    	<h4>Fitness</h4>
-						</a>
-					</div>
-
-				</div>
-			</div>
-			<!-- Featured Categories - End -->
-
 		</div>
 
 	</div>
@@ -92,7 +65,7 @@
 
 		<div class="col-md-12">
 			<h3 class="headline centered margin-top-75">
-				<strong class="headline-with-separator">Popular Categories</strong>
+				<strong class="headline-with-separator">Popular Kateqoriyalar</strong>
 			</h3>
 		</div>
 
@@ -102,42 +75,42 @@
 				<!-- Box -->
 				<a href="listings-list-with-sidebar.html" class="category-small-box">
 					<i class="im im-icon-Hamburger"></i>
-					<h4>Eat & Drink</h4>
+					<h4>Restoranlar</h4>
 					<span class="category-box-counter">12</span>
 				</a>
 
 				<!-- Box -->
 				<a href="listings-list-with-sidebar.html" class="category-small-box">
 					<i class="im  im-icon-Sleeping"></i>
-					<h4>Hotels</h4>
+					<h4>Loungelər</h4>
 					<span class="category-box-counter">32</span>
 				</a>
 
 				<!-- Box -->
 				<a href="listings-list-with-sidebar.html" class="category-small-box">
 					<i class="im im-icon-Shopping-Bag"></i>
-					<h4>Shops</h4>
+					<h4>Bərbərxanalar</h4>
 					<span class="category-box-counter">11</span>
 				</a>
 
 				<!-- Box -->
 				<a href="listings-list-with-sidebar.html" class="category-small-box">
 					<i class="im im-icon-Cocktail"></i>
-					<h4>Nightlife</h4>
+					<h4>Playstationlar</h4>
 					<span class="category-box-counter">15</span>
 				</a>
 
 				<!-- Box -->
 				<a href="listings-list-with-sidebar.html" class="category-small-box">
 					<i class="im im-icon-Electric-Guitar"></i>
-					<h4>Events</h4>
+					<h4>Çayxanalar</h4>
 					<span class="category-box-counter">21</span>
 				</a>
 
 				<!-- Box -->
 				<a href="listings-list-with-sidebar.html" class="category-small-box">
 					<i class="im im-icon-Dumbbell"></i>
-					<h4>Fitness</h4>
+					<h4>Publar</h4>
 					<span class="category-box-counter">28</span>
 				</a>
 
@@ -158,8 +131,7 @@
 
 			<div class="col-md-12">
 				<h3 class="headline centered margin-bottom-45">
-					<strong class="headline-with-separator">Most Visited Places</strong>
-					<span>Discover Top-Rated Local Businesses</span>
+					<strong class="headline-with-separator">Ən çox ziyarət edilənlər</strong>
 				</h3>
 			</div>
 
@@ -175,9 +147,9 @@
 							<div class="listing-badge now-open">Now Open</div>
 
 							<div class="listing-item-content">
-								<span class="tag">Eat & Drink</span>
-								<h3>Tom's Restaurant <i class="verified-icon"></i></h3>
-								<span>964 School Street, New York</span>
+								<span class="tag">Restoran</span>
+								<h3>50 Qəpik <i class="verified-icon"></i></h3>
+								<span>28 May</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>
@@ -199,9 +171,9 @@
 								</ul>
 							</div>
 							<div class="listing-item-content">
-								<span class="tag">Events</span>
-								<h3>Sticky Band</h3>
-								<span>Bishop Avenue, New York</span>
+								<span class="tag">Pub</span>
+								<h3>Old Baku</h3>
+								<span>Nizami küçəsi</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>
@@ -223,9 +195,9 @@
 								</ul>
 							</div>
 							<div class="listing-item-content">
-								<span class="tag">Hotels</span>
-								<h3>Hotel Govendor</h3>
-								<span>778 Country Street, New York</span>
+								<span class="tag">Playstation</span>
+								<h3>ES club</h3>
+								<span>28 May</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>

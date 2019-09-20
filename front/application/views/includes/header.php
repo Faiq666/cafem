@@ -34,7 +34,7 @@
 
                     <!-- Logo -->
                     <div id="logo">
-                        <a href="index.html"><img src="<?php echo base_url('public/assets/') ?>images/logo2.png" data-sticky-logo="<?php echo base_url('public/assets/') ?>images/logo.png" alt=""></a>
+                        <a href="<?php echo base_url('Home')?>"><img src="<?php echo base_url('public/assets/') ?>images/logo2.png" data-sticky-logo="<?php echo base_url('public/assets/') ?>images/logo.png" alt=""></a>
                     </div>
 
                     <!-- Mobile Navigation -->
@@ -65,7 +65,7 @@
                 <!-- Right Side Content / End -->
                 <div class="right-side">
                     <div class="header-widget">
-                        <a href="dashboard-add-listing.html" class="button border with-icon">Cafeni əlavə et <i class="sl sl-icon-plus"></i></a>
+                        <a href="<?php echo base_url('Home/add')?>" class="button border with-icon">Cafeni əlavə et <i class="sl sl-icon-plus"></i></a>
                     </div>
                 </div>
                 <!-- Right Side Content / End -->

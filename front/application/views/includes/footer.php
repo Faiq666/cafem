@@ -5,34 +5,31 @@
             <div class="col-md-5 col-sm-6">
                 <img class="footer-logo" src="<?php echo base_url('public/assets/') ?>images/logo.png" alt="">
                 <br><br>
-                <p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
+                <p>Bu səhifə Elxan Faiq Tural tərəfindən hazırlanmışdır</p>
             </div>
 
             <div class="col-md-4 col-sm-6 ">
-                <h4>Helpful Links</h4>
+                <h4>Daxildir</h4>
                 <ul class="footer-links">
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Add Listing</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Restoran</a></li>
+                    <li><a href="#">Pub</a></li>
+                    <li><a href="#">Playstiton</a></li>
+                    <li><a href="#">Lounge</a></li>
+                    <li><a href="#">Bərbərxana</a></li>
+                    <li><a href="#">Çayxana</a></li>
                 </ul>
 
                 <ul class="footer-links">
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Our Partners</a></li>
-                    <li><a href="#">How It Works</a></li>
+
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>
 
             <div class="col-md-3  col-sm-12">
-                <h4>Contact Us</h4>
+                <h4>Bizimlə əlaqə</h4>
                 <div class="text-widget">
-                    <span>12345 Little Lonsdale St, Melbourne</span> <br>
+                    <span>28 may,ADNSU</span> <br>
                     Phone: <span>(123) 123-456 </span><br>
                     E-Mail:<span> <a href="#"><span class="__cf_email__" data-cfemail="2f404949464c4a6f4a574e425f434a014c4042">[email&#160;protected]</span></a> </span><br>
                 </div>
@@ -103,7 +100,7 @@
 <script type="text/javascript" src="<?php echo base_url('public/assets/') ?>scripts/typed.js"></script>
 <script>
     var typed = new Typed('.typed-words', {
-        strings: ["Attractions"," Restaurants"," Hotels"],
+        strings: ["Lounge","Restoran","Playstation"],
         typeSpeed: 80,
         backSpeed: 80,
         backDelay: 4000,
