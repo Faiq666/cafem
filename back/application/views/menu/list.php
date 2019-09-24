@@ -9,7 +9,11 @@
 
         <table class="table">
             <?php for ($x = 1; $x <= (count(${$menu[$i]}) - 1); $x++){ ?>
-            <tr><th><?php echo ${$menu[$i]}[$x] ?></th><th><?php echo ${"$menu[$i]_single"}[${$menu[$i]}[$x]] ?></th><th>Username</th></tr>
+            <tr>
+                <th><?php echo ${$menu[$i]}[$x] ?></th>
+                <th><?php echo ${"$menu[$i]_single"}[${$menu[$i]}[$x]] ?></th>
+                <th></th>
+            </tr>
             <?php } ?>
         </table>
 
@@ -17,6 +21,9 @@
             <br>
 
     </div><!-- .widget -->
+            <a class="btn btn-danger" href="<?php echo base_url('Menu/delete/'.$single_menu['id']."/".$single_menu[$menu[$i]]) ?>">delete</a>
+            <br>
+            <br>
         <?php } ?>
     <?php } ?>
 </div><!-- END column -->
