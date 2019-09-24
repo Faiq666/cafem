@@ -4,15 +4,10 @@
 		<div class="row">
 			<div class="col-md-12">
 
-				<h2>Listings</h2><span>Grid Layout With Sidebar</span>
+				<h2>Lists</h2><span>Istədiyini bizimlə tap!</span>
 
 				<!-- Breadcrumbs -->
-				<nav id="breadcrumbs">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li>Listings</li>
-					</ul>
-				</nav>
+
 
 			</div>
 		</div>
@@ -26,34 +21,42 @@
 	<div class="row">
 		
 		<!-- Search -->
-		<div class="col-md-12">
-			<div class="main-search-input gray-style margin-top-0 margin-bottom-10">
+        <div class="main-search-input">
+            <div class="main-search-input-item">
+                <select data-placeholder="All Categories" class="chosen-select" >
+                    <option>Ailəvi</option>
+                    <option>Ümumi</option>
 
-				<div class="main-search-input-item">
-					<input type="text" placeholder="What are you looking for?" value=""/>
-				</div>
 
-				<div class="main-search-input-item location">
-					<div id="autocomplete-container">
-						<input id="autocomplete-input" type="text" placeholder="Location">
-					</div>
-					<a href="#"><i class="fa fa-map-marker"></i></a>
-				</div>
+                </select>
+            </div>
 
-				<div class="main-search-input-item">
-					<select data-placeholder="All Categories" class="chosen-select" >
-						<option>All Categories</option>	
-						<option>Shops</option>
-						<option>Hotels</option>
-						<option>Restaurants</option>
-						<option>Fitness</option>
-						<option>Events</option>
-					</select>
-				</div>
 
-				<button class="button">Search</button>
-			</div>
-		</div>
+            <div class="main-search-input-item">
+                <select data-placeholder="All Categories" class="chosen-select" >
+                    <option>Bütün kateqoriyalar</option>
+                    <option>Hezi Aslanov</option>
+                    <option>Ehmedli</option>
+                    <option>Xalqlar dostlugu</option>
+                    <option>Neftciler</option>
+
+                </select>
+            </div>
+
+            <div class="main-search-input-item">
+                <select data-placeholder="All Categories" class="chosen-select" >
+                    <option>Bütün kateqoriyalar</option>
+                    <option>Restoran</option>
+                    <option>Lounge</option>
+                    <option>Çayxana</option>
+                    <option>Playstation</option>
+
+                </select>
+            </div>
+
+            <button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">Axtar</button>
+
+        </div>
 		<!-- Search Section / End -->
 
 

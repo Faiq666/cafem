@@ -15,5 +15,9 @@ class Cafe_model extends CI_Model{
         return $this->db->where('id',$id)->get('place')->row_array() ;
     }
 
+    public function getCafee(){
+        return $this->db->get('cafe_join')->result_array();
+    }
+
 
 }
