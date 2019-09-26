@@ -58,7 +58,7 @@
 
                     <div class="highlighted-categories">
                         <!-- Box -->
-                        <a href="listings-list-with-sidebar.html" class="highlighted-category">
+                        <a href="listings-list-with-sidebar.html" class="highligd-category">
                             <i class="im im-icon-Home"></i>
                             <h4>Apartments</h4>
                         </a>

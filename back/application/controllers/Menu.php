@@ -15,7 +15,7 @@ class Menu extends CI_Controller {
 
     public function index($id)
     {
-
+        $data['id'] = $id;
         $data['menu'] = $this->Menu_model->get_menu();
         $data['single_menu'] = $this->Menu_model->get_single_menu($id);
         $data['cafe'] = $this->Cafe_model->getCafe($id);
@@ -86,6 +86,16 @@ class Menu extends CI_Controller {
             $aa);
         $this->Menu_model->menu_add_id($menu);
         redirect(base_url('Cafe'));
+    }
+
+    public function delete($menu_id,$table_id,$table_name,$index_id)
+    {
+        $this->Menu_model->delete_table($table_name,$table_id);
+        $data = array(
+            $table_name => 0,
+        );
+        $this->Menu_model->delete_menu_column($menu_id,$data);
+        redirect(base_url("menu/index/$index_id"));
     }
 
 

@@ -21,7 +21,7 @@
             <br>
 
     </div><!-- .widget -->
-            <a class="btn btn-danger" href="<?php echo base_url('Menu/delete/'.$single_menu['id']."/".$single_menu[$menu[$i]]) ?>">delete</a>
+            <a class="btn btn-danger" href="<?php echo base_url('Menu/delete/'.$single_menu['id']."/".$single_menu[$menu[$i]]."/".$menu[$i]."/".$id) ?>">delete</a>
             <br>
             <br>
         <?php } ?>

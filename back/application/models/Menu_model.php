@@ -36,4 +36,14 @@
         return $this->db->get('menu')->result_array();
     }
 
+    public function delete_table($table_name,$table_id)
+    {
+        $this->db->where('id',$table_id)->delete($table_name);
+    }
+
+    public function delete_menu_column($menu_id,$data)
+    {
+        $this->db->where('id',$menu_id)->update('menu',$data);
+    }
+
 }
