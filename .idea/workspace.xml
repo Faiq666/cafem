@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4da2d2b-b0e6-4655-a21a-2930d60cd8d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/application/models/FrontModel.php" afterDir="false" />
+    <list default="true" id="7cfc052d-92bc-430e-ae71-92d5a3f6173b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/application/models/Cafe_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/models/Cafe_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/application/views/dashboard/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/views/dashboard/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/controllers/Home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/application/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/application/views/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/views/includes/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/application/views/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/views/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/application/views/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/views/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/application/views/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,25 +21,11 @@
       <executable />
     </execution>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>attraction</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\xampp\htdocs\cafem</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
     <servers />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="1QdpNR9ZuFcwziv7cYvMYUX7qd6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,7 +74,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4da2d2b-b0e6-4655-a21a-2930d60cd8d9" name="Default Changelist" comment="" />
+      <changelist id="7cfc052d-92bc-430e-ae71-92d5a3f6173b" name="Default Changelist" comment="" />
       <created>1563104022342</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -128,6 +110,8 @@
       <workItem from="1568931180674" duration="1745000" />
       <workItem from="1568932971506" duration="1807000" />
       <workItem from="1568934816736" duration="574000" />
+      <workItem from="1569309332140" duration="1255000" />
+      <workItem from="1569521414552" duration="2948000" />
     </task>
     <servers />
   </component>
