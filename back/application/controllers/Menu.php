@@ -98,6 +98,65 @@ class Menu extends CI_Controller {
         redirect(base_url("menu/index/$index_id"));
     }
 
+    public function update($id)
+    {
+        $data['menu'] = $this->Menu_model->get_menu();
+        $data['single_menu'] = $this->Menu_model->get_single_menu_by_id($id);
+        $data['cafe'] = $this->Cafe_model->getCafe($data['single_menu']['place_id']);
+        for ($i = 2; $i <= (count($data['menu']) - 1); $i++){
+            $tables = $data['menu'];
+            $data[$tables[$i]] = $this->Menu_model->get_sub_menu($tables[$i]);
+            $columns = $data[$tables[$i]];
+            $data["$tables[$i]_single"] = $this->Menu_model->get_sub_menu_single($tables[$i],$data['single_menu'][$tables[$i]]);
+
+        }
+        $this->page = 'update';
+        $this->load->view("$this->loct/index",$data);
+    }
+
+    public function update_act($id)
+    {
+        $menu = array();
+        $data['menu'] = $this->Menu_model->get_menu();
+        for ($i = 2; $i <= (count($data['menu']) - 1); $i++){
+            $tables = $data['menu'];
+            $data[$tables[$i]] = $this->Menu_model->get_sub_menu($tables[$i]);
+            $columns = $data[$tables[$i]];
+
+            ${$tables[$i]} = array(
+                $columns[1] => $this->input->post($columns[1]),
+            );
+            if ($this->input->post($tables[$i]) == 'on') {
+                for ($x = 1; $x <= (count($columns) - 1); $x++) {
+                    $sub = $this->input->post($columns[$x]);
+                    $aa = array(
+                        $columns[$x] => $sub,
+                    );
+                    ${$tables[$i]} = array_merge(${$tables[$i]},
+                        $aa);
+
+                }
+
+                $insert_id = $this->Menu_model->menu_update(${$tables[$i]}, $tables[$i]);
+                $aa = array(
+                    $tables[$i] => $insert_id,
+                );
+                $menu = array_merge($menu,
+                    $aa);
+            }
+        }
+        $cafe_id = $this->input->post('cafe');
+
+
+        $aa = array(
+            'place_id' => $cafe_id,
+        );
+        $menu = array_merge($menu,
+            $aa);
+        $this->Menu_model->menu_update_id($menu);
+        redirect(base_url('Cafe'));
+    }
+
 
 
 }

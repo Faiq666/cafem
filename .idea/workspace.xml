@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/back/application/controllers/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/controllers/Menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/application/models/Menu_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/models/Menu_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/application/views/menu/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/views/menu/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/application/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/application/views/addcafe.php" beforeDir="false" afterPath="$PROJECT_DIR$/front/application/views/addcafe.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +110,8 @@
       <workItem from="1568934816736" duration="574000" />
       <workItem from="1569309332140" duration="1255000" />
       <workItem from="1569521414552" duration="5697000" />
+      <workItem from="1569681596046" duration="890000" />
+      <workItem from="1569779755051" duration="4428000" />
     </task>
     <servers />
   </component>

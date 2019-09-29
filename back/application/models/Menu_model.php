@@ -45,5 +45,19 @@
     {
         $this->db->where('id',$menu_id)->update('menu',$data);
     }
+    public function get_single_menu_by_id($id)
+    {
+        return $this->db->where('id',$id)->get('menu')->row_array();
+    }
+    public function menu_update($data,$i)
+    {
+        $this->db->insert($i,$data);
+        return $this->db->insert_id();
+    }
+
+    public function menu_update_id($data)
+    {
+        $this->db->update('menu',$data);
+    }
 
 }

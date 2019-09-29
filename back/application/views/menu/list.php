@@ -1,10 +1,12 @@
 <div class="col-md-12">
-    <h1 class="m-b-lg"><?php echo $cafe['name'] ?></h1>
+    <h1 class="m-b-lg"><?php echo $cafe['name'] ?> <a class="btn btn-success" href="<?php echo base_url('Menu/update/'.$single_menu['id']) ?>">Update</a></h1>
+
     <?php for ($i = 2; $i <= (count($menu) - 1); $i++){ ?>
         <?php if ($single_menu[$menu[$i]] != 0) { ?>
     <div class="widget p-lg">
 
         <h4 class="m-b-lg"><?php echo $menu[$i] ?></h4>
+
 
 
         <table class="table">
