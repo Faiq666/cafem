@@ -89,6 +89,11 @@
                         <li><a href="<?php echo base_url('Menu/menu_add') ?>"><span class="menu-text">Menu_add</span></a></li>
                     </ul>
                 </li>
+                <li class="has-submenu">
+
+                <li><a href="<?php echo base_url('Cafejoin/index') ?>"><span class="menu-text">Cafe_request</span></a></li>
+                </li>
+
 <!---->
 <!--                <li class="has-submenu">-->
 <!--                    <a href="javascript:void(0)" class="submenu-toggle">-->

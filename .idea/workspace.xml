@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cfc052d-92bc-430e-ae71-92d5a3f6173b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/back/application/models/Cafejoin_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/application/views/cafe_request/cafe_request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/application/models/Cafe_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/models/Cafe_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/application/views/includes/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/application/views/includes/navbar.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1QdpNR9ZuFcwziv7cYvMYUX7qd6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ugurholding" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cafem\front\application\views" />
+      <recent name="C:\xampp\htdocs\cafem\front\public\assets\add" />
+      <recent name="C:\xampp\htdocs\cafem\front\public\assets\scripts" />
+      <recent name="C:\xampp\htdocs\cafem\front\public\assets" />
+      <recent name="C:\xampp\htdocs\cafem\front" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cafem\back\application\views\cafe_request" />
+      <recent name="C:\xampp\htdocs\cafem\front\public\assets" />
+      <recent name="C:\xampp\htdocs\cafem\front\public" />
+      <recent name="C:\xampp\htdocs\cms\panel\application\views" />
+      <recent name="C:\xampp\htdocs\cms\panel\application\views\backend\includes" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gale" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cfc052d-92bc-430e-ae71-92d5a3f6173b" name="Default Changelist" comment="" />
+      <created>1563104022342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563104022342</updated>
+      <workItem from="1563104024436" duration="1733000" />
+      <workItem from="1563106050034" duration="1791000" />
+      <workItem from="1563107874310" duration="1777000" />
+      <workItem from="1563109706763" duration="1788000" />
+      <workItem from="1563111521699" duration="1781000" />
+      <workItem from="1563113542807" duration="1871000" />
+      <workItem from="1563115628724" duration="822000" />
+      <workItem from="1563193138713" duration="31000" />
+      <workItem from="1563207306900" duration="1108000" />
+      <workItem from="1564919406064" duration="1752000" />
+      <workItem from="1564921293571" duration="1255000" />
+      <workItem from="1566579159717" duration="35000" />
+      <workItem from="1566906997151" duration="1569000" />
+      <workItem from="1566908618450" duration="1389000" />
+      <workItem from="1566914443384" duration="1768000" />
+      <workItem from="1566916241167" duration="1781000" />
+      <workItem from="1566918059357" duration="1774000" />
+      <workItem from="1566919868067" duration="1168000" />
+      <workItem from="1568110304198" duration="7832000" />
+      <workItem from="1568324511088" duration="312000" />
+      <workItem from="1568324829375" duration="5000" />
+      <workItem from="1568324857606" duration="1334000" />
+      <workItem from="1568326654566" duration="706000" />
+      <workItem from="1568921483730" duration="1611000" />
+      <workItem from="1568923183559" duration="2006000" />
+      <workItem from="1568925620912" duration="1729000" />
+      <workItem from="1568927402365" duration="1517000" />
+      <workItem from="1568929336376" duration="1743000" />
+      <workItem from="1568931180674" duration="1745000" />
+      <workItem from="1568932971506" duration="1807000" />
+      <workItem from="1568934816736" duration="574000" />
+      <workItem from="1569309332140" duration="1255000" />
+      <workItem from="1569521414552" duration="5697000" />
+      <workItem from="1569681596046" duration="890000" />
+      <workItem from="1569779755051" duration="4428000" />
+      <workItem from="1569865715838" duration="35000" />
+      <workItem from="1570110243211" duration="5057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="son" />
+    <option name="LAST_COMMIT_MESSAGE" value="son" />
+  </component>
+</project>

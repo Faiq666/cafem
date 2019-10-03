@@ -16,4 +16,6 @@ class Cafe_model extends CI_Model{
     }
 
 
+
+
 }
