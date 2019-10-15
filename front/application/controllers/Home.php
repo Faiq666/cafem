@@ -1,6 +1,6 @@
 <?php
 class Home extends CI_Controller{
-    
+
     public function __construct()
     {
         parent::__construct();
@@ -15,11 +15,18 @@ class Home extends CI_Controller{
 
     public function filter()
     {
-        $this->load->view('list');
+        $data['cafesss']=$this->FrontModel->getCafess();
+        $this->load->view('list',$data);
     }
     public function add(){
         $this->load->view('addcafe');
     }
+    public function single($id){
+        $data['cafe']=$this->FrontModel->getsingle($id);
+        $this->load->view('singlepage',$data);
+    }
+
+
     public function addAct()
     {
 
@@ -49,6 +56,7 @@ class Home extends CI_Controller{
             }
 
         }
+
 
 
 

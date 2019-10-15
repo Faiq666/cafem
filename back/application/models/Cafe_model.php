@@ -15,7 +15,10 @@ class Cafe_model extends CI_Model{
         return $this->db->where('id',$id)->get('place')->row_array() ;
     }
 
-
+    public function delete_tableee($id)
+    {
+        $this->db->where('id',$id)->delete("place");
+    }
 
 
 }
