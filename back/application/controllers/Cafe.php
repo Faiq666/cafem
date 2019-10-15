@@ -50,18 +50,11 @@ class Cafe extends CI_Controller {
        );
        $this->Cafe_model->insertdata($data);
        redirect(base_url("Cafe"));
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    public function delete($id)
+    {
+        $this->Cafe_model->delete_tableee($id);
+        redirect(base_url("Cafe/index"));
     }
 
 
