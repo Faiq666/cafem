@@ -6,6 +6,7 @@
                 <img class="footer-logo" src="<?php echo base_url('public/assets/') ?>images/logo.png" alt="">
                 <br><br>
                 <p>Bu səhifə Elxan Faiq Tural tərəfindən hazırlanmışdır</p>
+                <a href="<?php echo base_url('Login')?>" class="btn btn-info" style="color: #ff0040"  ><b>Login</b></a>
             </div>
 
             <div class="col-md-4 col-sm-6 ">
@@ -36,6 +37,7 @@
 
                 <ul class="social-icons margin-top-20">
                     <li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a class="instagram" href="#"><i class="icon-instagram"></i></a></li>
                     <li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
                     <li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
                     <li><a class="vimeo" href="#"><i class="icon-vimeo"></i></a></li>
@@ -48,7 +50,7 @@
         <!-- Copyright -->
         <div class="row">
             <div class="col-md-12">
-                <div class="copyrights">© 2019 Listeo. All Rights Reserved.</div>
+                <div class="copyrights">© 2019 Cafem. Bütün hüquqları qorunur.</div>
             </div>
         </div>
 

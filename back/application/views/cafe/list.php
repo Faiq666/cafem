@@ -15,6 +15,8 @@
                                     <thead>
                                     <tr>
                                         <th>Name</th>
+                                        <th>username</th>
+                                        <th>password</th>
                                         <th>Type</th>
                                         <th>Location</th>
                                         <th>Cost</th>
@@ -27,6 +29,8 @@
                                     <?php foreach ($places as $place) { ?>
                                     <tr>
                                         <td><?php echo $place['name'] ?></td>
+                                        <td><?php echo $place['username'] ?></td>
+                                        <td><?php echo $place['password'] ?></td>
                                         <td><?php echo $place['type'] ?></td>
                                         <td><?php echo $place['location'] ?></td>
                                         <td><?php echo $place['cost'] ?></td>

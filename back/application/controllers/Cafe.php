@@ -28,11 +28,13 @@ class Cafe extends CI_Controller {
 
     public function add_action()
     {
-       $name    =     $this->input->post('name');
-       $type    =     $this->input->post('type');
-       $location=     $this->input->post('location');
-       $cost    =     $this->input->post('cost');
-       $place   =     $this->input->post('place');
+       $name         =     $this->input->post('name');
+       $type         =     $this->input->post('type');
+       $location     =     $this->input->post('location');
+       $cost         =     $this->input->post('cost');
+       $place        =     $this->input->post('place');
+       $username     =     $this->input->post('username');
+       $password  =    md5($this->input->post('password'));
 
 
        $data=array(
@@ -41,6 +43,8 @@ class Cafe extends CI_Controller {
            "location"=>$location,
            "cost"=>$cost,
            "place"=>$place,
+           "username"=>$username,
+           "password"=>$password,
 
 
        );
