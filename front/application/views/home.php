@@ -52,6 +52,38 @@
 					</div>
 				</div>
 			</div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="highlighted-categories-headline">Or browse featured categories:</h5>
+
+                    <div class="highlighted-categories">
+                        <!-- Box -->
+                        <a href="listings-list-with-sidebar.html" class="highligd-category">
+                            <i class="im im-icon-Home"></i>
+                            <h4>Apartments</h4>
+                        </a>
+
+                        <!-- Box -->
+                        <a href="listings-list-full-width.html" class="highlighted-category">
+                            <i class="im im-icon-Hamburger"></i>
+                            <h4>Eat &amp; Drink</h4>
+                        </a>
+
+                        <!-- Box -->
+                        <a href="listings-half-screen-map-list.html" class="highlighted-category">
+                            <i class="im im-icon-Electric-Guitar"></i>
+                            <h4>Events</h4>
+                        </a>
+
+                        <!-- Box -->
+                        <a href="listings-half-screen-map-list.html" class="highlighted-category">
+                            <i class="im im-icon-Dumbbell"></i>
+                            <h4>Fitness</h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
 		</div>
 
 	</div>

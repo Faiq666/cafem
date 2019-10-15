@@ -9,6 +9,7 @@ class Home extends CI_Controller{
 
     public function index()
     {
+        $_SESSION['page'] = 'home';
         $this->load->view('home');
     }
 

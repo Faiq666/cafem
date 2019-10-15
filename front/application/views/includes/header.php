@@ -16,17 +16,34 @@
 
 </head>
 
-<body class="transparent-header">
+<body  <?php
+                            if (isset($_SESSION['page'])){
+                                echo 'class="transparent-header"';
+                            }
+
+
+?>>
 
 <!-- Wrapper -->
 <div id="wrapper">
 
     <!-- Header Container
     ================================================== -->
-    <header id="header-container">
+    <header id="header-container"
+        <?php
+//        if (isset($_SESSION['page']) == False ){
+//            echo 'class="fixed fullwidth"';
+//        }
+
+        ?>>
 
         <!-- Header -->
-        <div id="header">
+        <div id="header" <?php
+//        if (isset($_SESSION['page']) == False ){
+//            echo 'class="not-sticky"';
+//        }
+
+        ?>>
             <div class="container">
 
                 <!-- Left Side Content -->
@@ -169,3 +186,4 @@
     </header>
     <div class="clearfix"></div>
     <!-- Header Container / End -->
+<?php unset($_SESSION['page']) ?>

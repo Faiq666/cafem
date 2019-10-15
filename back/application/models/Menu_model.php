@@ -36,4 +36,28 @@
         return $this->db->get('menu')->result_array();
     }
 
+    public function delete_table($table_name,$table_id)
+    {
+        $this->db->where('id',$table_id)->delete($table_name);
+    }
+
+    public function delete_menu_column($menu_id,$data)
+    {
+        $this->db->where('id',$menu_id)->update('menu',$data);
+    }
+    public function get_single_menu_by_id($id)
+    {
+        return $this->db->where('id',$id)->get('menu')->row_array();
+    }
+    public function menu_update($data,$i)
+    {
+        $this->db->insert($i,$data);
+        return $this->db->insert_id();
+    }
+
+    public function menu_update_id($data)
+    {
+        $this->db->update('menu',$data);
+    }
+
 }

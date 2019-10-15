@@ -33,25 +33,25 @@
 						<div class="row with-forms">
 							<div class="col-md-12">
 								<h5>Ad<i class="tip" data-tip-content="Name of your business"></i></h5>
-								<input class="search-field" type="text" name="name"   placeholder="adı daxil edin"/>
+								<input class="search-field" type="text" name="name" required  placeholder="adı daxil edin"/>
 							</div>
 						</div>
                         <div class="row with-forms">
                             <div class="col-md-12">
                                 <h5>Əlaqə nömrəsi və email<i class="tip" data-tip-content="Name of your business"></i></h5>
-                                <input class="search-field" type="text" name="number" placeholder="əlaqə nömrəsi və email"/>
+                                <input class="search-field" type="text" name="number" required placeholder="əlaqə nömrəsi və email"/>
                             </div>
                         </div>
                         <div class="row with-forms">
                             <div class="col-md-12">
                                 <h5>Location<i class="tip" data-tip-content="Name of your business"></i></h5>
-                                <input class="search-field" type="text" name="location"  placeholder="locationu daxil edin"/>
+                                <input class="search-field" type="text" name="location" required  placeholder="locationu daxil edin"/>
                             </div>
                         </div>
                             <div class="row with-forms">
                                 <div class="col-md-12">
                                     <h5>Haqqında<i class="tip" data-tip-content="Name of your business"></i></h5>
-                                    <input class="search-field" type="text" name="description"  placeholder="əlavə məlumatlar"/>
+                                    <input class="search-field" type="text" name="description" required placeholder="əlavə məlumatlar"/>
                                 </div>
                             </div>
                         <button class="btn btn-info" >Add</button>
