@@ -32,7 +32,25 @@
                                 <option>Ehmedli</option>
                                 <option>Xalqlar dostlugu</option>
                                 <option>Neftciler</option>
-
+                                <option>Q.Qarayev</option>
+                                <option>Koroglu</option>
+                                <option>Ulduz</option>
+                                <option>N.Nerimanov</option>
+                                <option>Genclik</option>
+                                <option>28 May</option>
+                                <option>Nizami</option>
+                                <option>Elmler Akademiyası</option>
+                                <option>İnsaatcilar</option>
+                                <option>20 Yanvar</option>
+                                <option>M.Ecemi</option>
+                                <option>Nesimi</option>
+                                <option>Azadlig</option>
+                                <option>Dernegul</option>
+                                <option>İceriseher</option>
+                                <option>Sahil</option>
+                                <option>Xetai</option>
+                                <option>Avtovagzal</option>
+                                <option>Bakmil</option>
                             </select>
 						</div>
 
