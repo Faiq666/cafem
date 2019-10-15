@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.vasterad.com	TRUE	/	FALSE	1999999999	__cfduid	d395a2d1397794015f609a3ea8e610ec81568110111
+
