@@ -28,12 +28,13 @@
 
          if ($data){
              $_SESSION['test']=true;
-             redirect(base_url('Login/cafePage'));
+             redirect(base_url('../AdminPanel'));
 
          }else{
              $this->session->set_userdata('error','Istifadəçi adi vəya parol yanlisdir.');
-             redirect(base_url('Login'));
+             redirect(base_url('../AdminPanel'));
          }
+
 
      }
  }

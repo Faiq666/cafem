@@ -20,5 +20,23 @@ class Cafe_model extends CI_Model{
         $this->db->where('id',$id)->delete("place");
     }
 
+    public function gallery($data)
+    {
+        $this->db->insert("gallery",$data);
+    }
+
+    public function gallery_get($id)
+    {
+//        $this->db->select("*");
+//        $this->db->from('place');
+//        $this->db->join('gallery',"gallery.place_id = place.id");
+        return $data = $this->db->where("place_id",$id)->get('gallery')->result_array();
+
+    }
+
+    public function delete_gallery($id)
+    {
+        $this->db->where('id',$id)->delete("gallery");
+    }
 
 }
