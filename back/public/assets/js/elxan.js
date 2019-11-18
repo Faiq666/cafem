@@ -18,7 +18,7 @@
                 });
         })
      })
-     $(".delete").click(function () {
+     $(".delete").on("click").click(function () {
          var data_url = $(".delete").data("url");
          $.post(data_url,{},function (response) {
              $(".gallery_render").html(response);
