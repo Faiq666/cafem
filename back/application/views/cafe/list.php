@@ -35,17 +35,23 @@
                                         <td><?php echo $place['location'] ?></td>
                                         <td><?php echo $place['cost'] ?></td>
                                         <td><?php echo $place['place'] ?></td>
-                                        <?php foreach ($allmenu as $single_menu){
-                                            if ($single_menu['place_id'] == $place['id']){
-                                                $menucheck = 0;
+
+                                        <?php $menucheck = 0;
+                                        foreach ($allmenu as $single_menu){
+                                            if ($single_menu['place_id'] == $place['id']) {
+                                                $menucheck = 1;
                                                 break;
-                                            }else{ $menucheck = 1; }
+                                            }
                                         } ?>
-                                        <?php if ($menucheck == 0) { ?>
+                                        <td><a href="<?php echo base_url('Cafe/cafe_gallery_add/'.$place['id']) ?>" class="btn btn-info">Gallery</a></td>
+                                        <td><a href="" class="btn btn-deepOrange">Update</a></td>
+                                        <td><a href="<?php echo base_url('Cafe/delete/'.$place['id']) ?>" class="btn btn-deepOrange">Delete</a></td>
+                                        <?php if ($menucheck == 1) { ?>
+
+
                                         <td><a href="<?php echo base_url('Menu/index/').$place['id'] ?>" class="btn btn-deepOrange">Menu</a></td>
                                         <?php }else{ ?>
-                                        <td><a href="" class="btn btn-deepOrange">Update</a></td>
-                                            <td><a href="<?php echo base_url('Cafe/delete/'.$place['id']) ?>" class="btn btn-deepOrange">Delete</a></td>
+
 
 
                                         <td><a  href="<?php echo base_url('Menu/menu_add/').$place['id']."/".$place['name'] ?>" class="btn btn-deepOrange">Menu add</a></td>

@@ -267,4 +267,4 @@
     </div><!-- .menubar-scroll -->
 </aside>
 <!--========== END app aside -->
-<main id="app-main" class="app-main">
+<main style="padding: 20px" id="app-main" class="app-main">
