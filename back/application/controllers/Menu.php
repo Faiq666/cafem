@@ -95,6 +95,18 @@ class Menu extends CI_Controller {
             $table_name => 0,
         );
         $this->Menu_model->delete_menu_column($menu_id,$data);
+       $a = $this->Menu_model->get_menu_id($menu_id);
+        $c = false;
+        foreach (array_slice($a,2) as $b){
+            if ($b != 0){
+                $c = true;
+            }
+        }
+        if ($c == false){
+            $this->Menu_model->menu_delete($menu_id);
+        }
+
+
         redirect(base_url("menu/index/$index_id"));
     }
 

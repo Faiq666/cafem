@@ -4,6 +4,15 @@
     {
       return  $this->db->list_fields('menu');
     }
+    public function get_menu_id($id)
+    {
+        return  $this->db->where('id',$id)->get('menu')->row_array();
+    }
+
+    public function menu_delete($id)
+    {
+        $this->db->where('id',$id)->delete('menu');
+    }
 
     public function get_sub_menu($i)
     {

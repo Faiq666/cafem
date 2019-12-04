@@ -23,7 +23,8 @@ class Cafe extends CI_Controller {
     public function cafe_add()
     {
         $this->page = 'cafe_add';
-        $this->load->view("$this->loct/index");
+        $data['types'] = $this->Cafe_model->cafe_type();
+        $this->load->view("$this->loct/index",$data);
     }
 
     public function add_action()
@@ -61,6 +62,7 @@ class Cafe extends CI_Controller {
 
     public function cafe_gallery_add($id)
     {
+
         $data['gallery'] = $this->Cafe_model->gallery_get($id);
         $data['id'] = $id;
 
@@ -74,7 +76,7 @@ class Cafe extends CI_Controller {
     {
 
         $config["allowed_types"] = "jpg|jpeg|png";
-        $config["upload_path"]   = "uploads/cafe_gallery/";
+        $config["upload_path"]   = "../uploads/cafe_gallery/";
 
         $this->load->library("upload", $config);
 
@@ -115,6 +117,61 @@ class Cafe extends CI_Controller {
         echo $render_html;
 
     }
+
+    public function gallery_active($id)
+    {
+        echo aaaa;
+
+    }
+    ///end of gllery
+
+    public function update($id)
+    {
+
+
+        $data['getNew'] = $this->Cafe_model->getNew(array(
+            "id" => $id,
+        ));
+
+        $this->load->view('cafe/cafe_update', $data);
+    }
+
+    public function updateAct($id)
+    {
+        $name         =     $this->input->post('name');
+        $type         =     $this->input->post('type');
+        $location     =     $this->input->post('location');
+        $cost         =     $this->input->post('cost');
+        $place        =     $this->input->post('place');
+        $username     =     $this->input->post('username');
+        $password  =    md5($this->input->post('password'));
+
+        if (!empty($name) && !empty($location) && !empty($password) ){
+
+            $data = array(
+                "name"=>$name,
+                "type"=>$type,
+                "location"=>$location,
+                "cost"=>$cost,
+                "place"=>$place,
+                "username"=>$username,
+                "password"=>$password,
+            );
+
+            $this->Cafe_model->update($id, $data);
+            $this->session->set_userdata('success', 'Emiliyyat Ugurlu!');
+            redirect(base_url("Cafe"));
+
+        }else{
+            $this->session->set_userdata('err','Bosluq buraxmayin');
+            redirect(base_url('Cafe/update'));
+        }
+
+
+
+    }
+
+
 
 
 

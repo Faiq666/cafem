@@ -26,7 +26,7 @@
         <div class="widget">
             <div class="widget-body gallery_render">
 
-                <?php $this->load->view("cafe/render/render_gallery") ?>
+                <?php $this->load->view("gallery/render/render_gallery") ?>
 
             </div><!-- .widget-body -->
         </div><!-- .widget -->
