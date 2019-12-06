@@ -39,4 +39,15 @@ class Cafe_model extends CI_Model{
         $this->db->where('id',$id)->delete("gallery");
     }
 
+    public function cafe_type()
+    {
+        return $this->db->order_by('id','ASC')->get('cafe_type')->result_array() ;
+    }
+    public function getNew($where = array()){
+        return $this->db->where($where)->get('place')->row_array();
+    }
+    public function update($id, $data){
+        $this->db->where("id", $id)->update("place", $data);
+    }
+
 }

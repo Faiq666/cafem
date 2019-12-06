@@ -44,7 +44,7 @@
                                             }
                                         } ?>
                                         <td><a href="<?php echo base_url('Cafe/cafe_gallery_add/'.$place['id']) ?>" class="btn btn-info">Gallery</a></td>
-                                        <td><a href="" class="btn btn-deepOrange">Update</a></td>
+                                        <td><a href="<?php echo base_url('Cafe/update/'.$place['id']) ?>" class="btn btn-deepOrange">Update</a></td>
                                         <td><a href="<?php echo base_url('Cafe/delete/'.$place['id']) ?>" class="btn btn-deepOrange">Delete</a></td>
                                         <?php if ($menucheck == 1) { ?>
 
